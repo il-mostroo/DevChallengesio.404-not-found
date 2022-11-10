@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
 }
+
 header p,
 h1,
 main p,
@@ -58,7 +59,7 @@ section {
 }
 footer p {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #bdbdbd;
   text-align: center;
 }
