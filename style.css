@@ -10,7 +10,7 @@ header p,
 h1,
 main p,
 a {
-  margin-left: calc((0.334rem - 1px + 4.977vw));
+  margin-left: calc(0.334rem - 1px + 4.977vw);
 }
 header p {
   font-family: "Inconsolata", monospace;
@@ -28,7 +28,6 @@ img {
   width: clamp(286.832px, 12.373rem + 23.699vw, 539.216px);
   height: clamp(13.772rem, 9.505rem + 18.207vw, 25.891rem);
   align-self: center;
-  left: 46px;
   margin-bottom: 4.8125rem;
 }
 h1 {
@@ -62,4 +61,42 @@ footer p {
   font-size: 0.875rem;
   color: #bdbdbd;
   text-align: center;
+}
+
+@media screen and (min-width: 34.6875rem) {
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1,
+  section p {
+    margin-left: calc(2.648em + 1.502vw);
+    margin-right: calc(2.648em + 1.502vw);
+    text-align: center;
+  }
+  a {
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 60rem) {
+  main {
+    flex-direction: row;
+    /* margin-left: calc(0.334rem - 1px + 4.977vw); */
+    justify-content: space-evenly;
+  }
+  section {
+    max-width: 40.7%;
+    align-items: flex-start;
+    margin-top: 7rem;
+  }
+  header p {
+    margin-bottom: 18.51%;
+  }
+  h1,
+  section p {
+    text-align: initial;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
