@@ -30,8 +30,6 @@
 ![screenshot](resources/mid-size.png)
 ![screenshot](resources/large.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
 - You can see a live demo of this web page on the DEMO link at the top of the description. This was my first challenge from the website devChallenges, it was very funny and quite diffucult to me since it was the first time ever i deal with responsivness. I learned plenty of things and new concepts like the how to think responsively, the difference between responsive and fluid design, min(),max() and clamp() functions that are so important, and also how to properly add media queries and custom properties.
 
 ### Built With
