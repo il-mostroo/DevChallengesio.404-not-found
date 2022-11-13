@@ -10,15 +10,16 @@ body {
   min-height: 100vh;
 }
 .content-wrap {
-  padding-bottom: 10rem;
+  padding-bottom: 3rem;
+  background-color: cadetblue;
 }
-header p,
+header,
 h1,
 main p,
 a {
   margin-left: calc(0.334rem - 1px + 4.977vw);
 }
-header p {
+header {
   font-family: "Inconsolata", monospace;
   font-size: 1.5rem;
   font-weight: bold;
@@ -62,7 +63,7 @@ a {
 section {
   margin-bottom: 8.5625rem;
 }
-footer p {
+footer {
   font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
   color: #bdbdbd;
@@ -103,7 +104,7 @@ footer p {
     width: min(40.7%, 740px);
     align-items: flex-start;
   }
-  header p {
+  header {
     margin-bottom: min(18.51%, 16.75rem);
   }
   h1,
