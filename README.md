@@ -16,18 +16,8 @@
   </h3>
 </div>
 
-## Table of Contents
-
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-
 ## Overview
 
-![screenshot](resources/mobile.png)
-![screenshot](resources/mid-size.png)
 ![screenshot](resources/large.png)
 
 - You can see a live demo of this web page on the DEMO link at the top of the description. This was my first challenge from the website devChallenges, it was very funny and quite diffucult to me since it was the first time ever i deal with responsivness. I learned plenty of things and new concepts like the how to think responsively, the difference between responsive and fluid design, min(),max() and clamp() functions that are so important, and also how to properly add media queries and custom properties.
@@ -36,8 +26,6 @@
 
 - Html
 - Css
-
-## Features
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
 
